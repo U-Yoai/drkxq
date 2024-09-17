@@ -1,0 +1,5 @@
+[
+null,
+{"id":1,"battlerName":"boku","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":1,"name":"弟弟","nickname":"","note":"<Set Sts Data>\nInit Sp: 0\n</Set Sts Data>","profile":""},
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]

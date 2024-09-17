@@ -1,0 +1,6243 @@
+{
+  "autoplayBgm": true,
+  "autoplayBgs": false,
+  "battleback1Name": "",
+  "battleback2Name": "",
+  "bgm": {
+    "name": "tokino",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 100
+  },
+  "bgs": {
+    "name": "",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "disableDashing": false,
+  "displayName": "",
+  "encounterList": [
+
+  ],
+  "encounterStep": 30,
+  "height": 10,
+  "note": "<フォグ1:fog2,0.2,0,50,1,1>",
+  "parallaxLoopX": false,
+  "parallaxLoopY": false,
+  "parallaxName": "Afternoon",
+  "parallaxShow": true,
+  "parallaxSx": 1,
+  "parallaxSy": 1,
+  "scrollType": 0,
+  "specifyBattleback": false,
+  "tilesetId": 3,
+  "width": 18,
+  "data": [
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1544,
+    1544,
+    1544,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "events": [
+    null,
+    {
+      "id": 1,
+      "name": "演出消し",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 235,
+              "indent": 0,
+              "parameters": [
+                74
+              ]
+            },
+            {
+              "code": 235,
+              "indent": 0,
+              "parameters": [
+                63
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 1"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 2"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 4"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 7"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 0,
+      "y": 8
+    },
+    {
+      "id": 2,
+      "name": "ボクの吹き出し",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 6,
+      "y": 7
+    },
+    {
+      "id": 3,
+      "name": "ヒロインの吹き出し",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 8,
+      "y": 5
+    },
+    null,
+    {
+      "id": 5,
+      "name": "MENU実績表示呼び出し",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 20,
+            "variableValid": true,
+            "variableValue": 1
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                17
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 20,
+            "variableValid": true,
+            "variableValue": 2
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 17,
+      "y": 1
+    },
+    {
+      "id": 6,
+      "name": "EV中上昇処理",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 360,
+            "switch1Valid": true,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                788,
+                788,
+                0,
+                0,
+                20
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                787,
+                787,
+                0,
+                0,
+                20
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "---------------------------------"
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                149
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                150
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                360,
+                360,
+                1
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 4,
+          "walkAnime": true
+        }
+      ],
+      "x": 17,
+      "y": 8
+    },
+    {
+      "id": 7,
+      "name": "EV007",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "C_HIDE"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "C_HIDE_CLOCK"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                240,
+                240,
+                0
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 223,
+              "indent": 0,
+              "parameters": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                60,
+                false
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "for(var i = 1; i <= 100; i++){$gameScreen.erasePicture(i)}"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                7,
+                7,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                592,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "this.PlayRenAnimeOne(1,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "\"pictures/1/Rion1_1a\" ,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                " 1,1,1 , 0,0,255 , 100,100);"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 1,
+              "parameters": [
+                "this.PlayRenAnimeOne(1,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                "\"pictures/1/Rion1_1\" ,"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 1,
+              "parameters": [
+                " 1,1,1 , 0,0,255 , 100,100);"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "PA_INIT 3 30 連番 0"
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [
+                78,
+                "Themaincharacter1_0000",
+                0,
+                0,
+                5,
+                185,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "PA_START_LOOP 78 2"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                158,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                2,
+                "Jikan_Min",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 284,
+              "indent": 1,
+              "parameters": [
+                "morning",
+                false,
+                false,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                158,
+                0,
+                2,
+                0
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                2,
+                "Jikan_Afternoon",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 284,
+              "indent": 1,
+              "parameters": [
+                "Afternoon",
+                false,
+                false,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                158,
+                0,
+                3,
+                0
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                2,
+                "Jikan_Evening",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 284,
+              "indent": 1,
+              "parameters": [
+                "evening",
+                false,
+                false,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                158,
+                0,
+                4,
+                0
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 1,
+              "parameters": [
+                2,
+                "Jikan_Night",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 284,
+              "indent": 1,
+              "parameters": [
+                "night",
+                false,
+                false,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "D_TEXT \\v[136]\\v[137]月\\v[138]\\v[139]日\\v[273]　\\c[14]剩余\\v[140]日 15"
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [
+                3,
+                "",
+                0,
+                0,
+                20,
+                40,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "-----------------------------------"
+              ]
+            },
+            {
+              "code": 222,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_smile",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                592,
+                0,
+                2,
+                5
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                592,
+                592,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                32,
+                32,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                37,
+                37,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "MWP_VALID 3 2 1"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "嗯嗯\\kw[1]"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "实践报告也完成不少了呢。"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "MWP_VALID 2 1 1"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "嗯！"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "多亏了莉音姐呢！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "不过，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "还剩下一半呢……"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "有没有什么其他"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "有意思的话题呢……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我想想啊……"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "神社、粗点心店……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "还有……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "this.setupChild(this.character(1).page().list, this.eventId());"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "hirameki2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 224,
+              "indent": 0,
+              "parameters": [
+                [
+                  255,
+                  255,
+                  255,
+                  170
+                ],
+                10,
+                false
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_Speakingofwhich",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "……啊！\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "说起来……！"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "莉音姐？"
+              ]
+            },
+            {
+              "code": 242,
+              "indent": 0,
+              "parameters": [
+                3
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "哼哼哼……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\n[1]……\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "你有听过这个传闻吗？"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "传闻……？"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "this.setupChild(this.character(1).page().list, this.eventId());"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 242,
+              "indent": 0,
+              "parameters": [
+                3
+              ]
+            },
+            {
+              "code": 234,
+              "indent": 0,
+              "parameters": [
+                1,
+                [
+                  -68,
+                  -68,
+                  -68,
+                  0
+                ],
+                60,
+                false
+              ]
+            },
+            {
+              "code": 223,
+              "indent": 0,
+              "parameters": [
+                [
+                  -68,
+                  -68,
+                  -68,
+                  0
+                ],
+                60,
+                true
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 241,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Horror-juki_loop",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我们家附近有条小河，\\.就在那个河边。"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "是个据说死在了河边的，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "女孩子的故事……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "咦！？"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "她死的时候……\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "对的，差不多就是"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我们现在这个季节……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "那天突然下起了暴雨，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "河边的水位好像也涨了……"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "那个女孩在暴雨中回家的时候，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "就这样被冲走了……"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "然后便不见踪影……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "据说连尸体都没有发现……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "……！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "然后啊……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "等到了冬天这个时候……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "就会在深夜听到……\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]「来玩吧…来玩吧……」\\c[0]……"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "不知从什么地方传出来的"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "小孩子的哭泣……"
+              ]
+            },
+            {
+              "code": 242,
+              "indent": 0,
+              "parameters": [
+                3
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                6
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "……！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "this.setupChild(this.character(1).page().list, this.eventId());"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "------------------------------"
+              ]
+            },
+            {
+              "code": 234,
+              "indent": 0,
+              "parameters": [
+                1,
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                60,
+                false
+              ]
+            },
+            {
+              "code": 223,
+              "indent": 0,
+              "parameters": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                60,
+                true
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "hirameki2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 224,
+              "indent": 0,
+              "parameters": [
+                [
+                  255,
+                  255,
+                  255,
+                  170
+                ],
+                10,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_smile",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "……就是这个传闻哦\\kw[1]"
+              ]
+            },
+            {
+              "code": 241,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "tokino",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "这，这也太吓人了吧！！"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "原来有这种传闻吗！？"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_Yes2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "好啦好啦，说到底也只是个传闻\\kw[1]\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "说不定是人为编出来的哦\\kw[1]"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "不过这个传闻，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "在我是小学生的时候就有了，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "还挺有名的呢\\kw[1]"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "……\\.所以\\kw[1]"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "hirameki2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 224,
+              "indent": 0,
+              "parameters": [
+                [
+                  255,
+                  255,
+                  255,
+                  170
+                ],
+                10,
+                false
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要不要找个机会，\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "去确认一下这个传闻的真假呢？\\kw[1]"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "咦！？"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要是真的能听到声音，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "那可是个独家新闻……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "没听到的话那就没听到，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "也能当做一个段子呢。"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]（莉，莉音姐……）"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]（她完全就是没事闲的……）"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "怎么样，是不是很有趣？\\kw[1]"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "唔，唔嗯……"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]（不过我现在……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　的确没有什么东西能"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　写在实践报告上了……）"
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "那，那干脆就直接……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "写一篇关于传言的文章！\\^"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "不行不行！\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我们一定要去探求真相才行！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_smile",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "怎么样，姐姐也会跟你一起去的\\kw[1]"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "就当做是冬天的试胆大会了\\kw[1]"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "唔，呜呜……"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我，我知道啦……"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "不过到时候一定"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要一起去哦！"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我是绝对不会"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "一个人去的！"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Rion_geez",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "是是是，"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "你真胆小呢\\kw[1]"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "hirameki2",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 224,
+              "indent": 0,
+              "parameters": [
+                [
+                  255,
+                  255,
+                  255,
+                  170
+                ],
+                10,
+                false
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我想想呀～\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要去就挑\\c[14]睡觉之前\\c[0]吧\\kw[1]"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "诶！？\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要那么晚去吗！？"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                38,
+                38,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                101
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 2 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "这样才比较有感觉呀？\\kw[1]"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "要去的时候跟我说一声哦\\kw[1]"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "我也要做些准备的！"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Earth5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 1 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]（还有感觉……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　我不需要那种感觉啦～！）"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Sound5",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 225,
+              "indent": 0,
+              "parameters": [
+                1,
+                9,
+                1,
+                false
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                128,
+                128,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                89
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "\\c[14]（莉音姐她果然……\\."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　只是单纯想看我出丑吧……）"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Item3",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 242,
+              "indent": 0,
+              "parameters": [
+                3
+              ]
+            },
+            {
+              "code": 235,
+              "indent": 0,
+              "parameters": [
+                70
+              ]
+            },
+            {
+              "code": 231,
+              "indent": 0,
+              "parameters": [
+                63,
+                "Window",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ指定 4 終了禁止"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "＞就这样，跟莉音姐度过了一段时间！"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "＞附近河边的恐怖传闻……！"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　有机会要跟莉音姐一起去"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　探明传闻的真相！"
+              ]
+            },
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                2,
+                2
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "＞不过话说回来，莉音姐提到的准备……"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　是要准备什么呀……？"
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "　总之\\c[14]睡觉之前跟莉音姐说一声吧\\c[0]！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                942,
+                942,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                88
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                32,
+                32,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 111,
+              "indent": 0,
+              "parameters": [
+                1,
+                32,
+                0,
+                3,
+                2
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                20,
+                20,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 411,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                20,
+                20,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 1,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 412,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 117,
+              "indent": 0,
+              "parameters": [
+                147
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                30
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                360,
+                360,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "C_ADD_TIME 30"
+              ]
+            },
+            {
+              "code": 250,
+              "indent": 0,
+              "parameters": [
+                {
+                  "name": "Berry(2)1",
+                  "volume": 90,
+                  "pitch": 100,
+                  "pan": 0
+                }
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "ShowInfo \\I[167]时间过去了\\c[14]30分钟\\c[0]！"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 242,
+              "indent": 0,
+              "parameters": [
+                2
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "C_HIDE"
+              ]
+            },
+            {
+              "code": 221,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            },
+            {
+              "code": 235,
+              "indent": 0,
+              "parameters": [
+                1
+              ]
+            },
+            {
+              "code": 355,
+              "indent": 0,
+              "parameters": [
+                "for(var i = 3; i <= 100; i++){$gameScreen.erasePicture(i)}"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                787,
+                794,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "イベント高速化許可"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                379,
+                379,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                7,
+                7,
+                0
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 1"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 2"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "EMW_メッセージウィンドウ強制終了 4"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge A"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge B"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge C"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge D"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge E"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge F"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge J"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge K"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge L"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge M"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge N"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge O"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge P"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge Q"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge R"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge S"
+              ]
+            },
+            {
+              "code": 356,
+              "indent": 0,
+              "parameters": [
+                "hideHpGauge T"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "◆現在地の再設定"
+              ]
+            },
+            {
+              "code": 122,
+              "indent": 0,
+              "parameters": [
+                41,
+                41,
+                0,
+                0,
+                9
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 121,
+              "indent": 0,
+              "parameters": [
+                240,
+                240,
+                1
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "----------------------------------------"
+              ]
+            },
+            {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "ーーーーーーーーーーーーーーーーーーーーーーーーーーー"
+              ]
+            },
+            {
+              "code": 230,
+              "indent": 0,
+              "parameters": [
+                60
+              ]
+            },
+            {
+              "code": 201,
+              "indent": 0,
+              "parameters": [
+                0,
+                10,
+                17,
+                19,
+                0,
+                2
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": [
+
+              ]
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": [
+
+                ]
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 3,
+          "walkAnime": true
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

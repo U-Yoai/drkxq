@@ -1,0 +1,18 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Kagura Games\\Winter Memories"
+		{
+			"string"
+			{
+				"Install_Path"		"%INSTALLDIR%"
+				"Exe_Path"		"%INSTALLDIR%\\spiral.exe"
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"9c6e9851faf0e8c7d9150312fc916eb775029e3d32996bec2ab97448874d0695c3a1ea3133098e87562cad53992be2aea033ad3237bc591443b04faf0318c78fb9d681e8425c71bb1e925eaa989a9e3dd585b7ae4d1a73fab86f15850cfb97d7cd99056e3f02165e754435dad693b2da79a8697fa4aa7b826b2499f18142ee73"
+}

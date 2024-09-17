@@ -1,0 +1,794 @@
+//=============================================================================
+// Mano_SpriteNumber.js
+// ----------------------------------------------------------------------------
+// Copyright (c) 2017-2017 Sigureya
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+// ----------------------------------------------------------------------------
+// [Twitter]: https://twitter.com/Sigureya/
+// [github]:https://github.com/Sigureya/RPGmakerMV
+//=============================================================================
+
+/*:
+ * @plugindesc 数字を表示するためのスプライトです。
+ * 色々使えます。
+ * @author しぐれん(https://github.com/Sigureya/RPGmakerMV)
+ * 
+ * @param mapNumbers
+ * @desc マップ上で表示する数字スプライトの一覧です。
+ * @type struct<SpriteSetting>[]
+ * @default []
+ * 
+ * @param bitmapRows
+ * @type struct<BitmapRow>[]
+ * @default []
+ * 
+ * @help
+ * マップ上で数字を表示するプラグインです。
+ * プラグインパラメータだけ設定すればいい感じに動きます。
+ * 
+ * ユーザー定義の数字画像を表示したい場合、
+ * パラメータで画像を設定してください。
+ * bitmapRowsとmapNumbersの両方を変更します。
+ * 
+ * ver 1.0.0 (2018/04/02)
+ * 公開
+*/
+/*~struct~DecorationSprite:
+ * @param bitmap
+ * @type file
+ * @dir img
+ * 
+ * @param x
+ * @type number
+ * @default 0
+ * 
+ * @param y
+ * @type number
+ * @default 0
+ */
+/*~struct~BitmapRow:
+ * @param bitmap
+ * @desc 数字用の画像セットです
+ * @type file
+ * @dir img/system
+ * 
+ * @param maxRow
+ * @desc 画像セット内に数値要素がいくつあるかを定義します。
+ * デフォルトのダメージ画像だと5です
+ * @type number
+ * @default 5
+ * @min 1
+*/
+
+
+/*~struct~SpriteSetting:
+ *
+ * @param x
+ * @desc X座標に使う変数です
+ * @type variable
+ * @default 0
+ * 
+ * @param y
+ * @desc Y座標に使う変数です
+ * @type variable
+ * @default 0
+ * 
+ * @param switchId
+ * @text スイッチ
+ * @desc 指定したスイッチがONの時だけ表示します。
+ * 指定しない場合、常に表示されます。
+ * @type State
+ * @default 0
+ * 
+ * @param variableId
+ * @desc 指定した変数が変更された場合、スプライトを更新します。
+ * @type variable
+ * @dafault 0
+ * 
+ * @param animation
+ * @desc 数字が切り替えられたときに、飛び跳ねるような演出をします。
+ * 処理はleap用の関数を通して行われます。
+ * @type combo
+ * @option jump
+ * @default 
+ * 
+ * @param spacing
+ * @desc 数字同士の間隔を設定します。
+ * 負の数値を設定すると、数字が重なります。
+ * @default 0
+ * 
+ * @param digit
+ * @text 桁数
+ * @desc 桁数を指定します。
+ * 指定値より大きい数値が指定された場合、999...などになります。
+ * @default 8
+ * 
+ * @param align
+ * @text 文字寄せ
+ * @desc 数字を左右どちらに寄せるかを決めます
+ * @type select 
+ * @option right
+ * @option left
+ * @default right
+ * 
+ * @param padZero
+ * @desc ゼロ埋め処理の有無を指定します
+ * @type boolean
+ * @default false
+ * 
+ * @param bitmap
+ * @desc 使用する画像ファイルです。
+ * @type file
+ * @dir img/system
+ * @default Damage
+ * 
+ * 
+ * @param DecorationLower
+ * @desc 数字より下のレイヤーに表示される画像です。
+ * @type struct<DecorationSprite>
+ * 
+ * @param DecorationUpper
+ * @desc 数字より上のレイヤーに表示される画像です。
+ * @type struct<DecorationSprite>
+ * 
+ */
+
+/**
+ * TODO
+ * 数字をセットした瞬間にアニメーションする機能
+ * 同じAPIでゲージを描画する機能
+ */
+
+var Mano_SpriteNumber=(function(){
+'use strict';
+
+const Setting_SpriteNumber_NullObject = Object.freeze({
+    x:0, y:0,
+    switchId:0,
+    padZero:false,
+    spacing:0,
+    bitmapRow:5,
+    align:"right",
+    variableId:0,
+});
+
+class Setting_SpriteNumber{
+    constructor(jsonObject){
+        this.bitmapRow =5;
+        this.switchId=Number(jsonObject.switchId);
+        this.variableId = Number(jsonObject.variableId);
+        this.padZero = (jsonObject.padZero ==='true');
+        this.digit = Number(jsonObject.digit);
+        this.spacing = Number(jsonObject.spacing);
+        this.bitmap =String(jsonObject.bitmap ||'damage');
+        this.x = Number(jsonObject.x);
+        this.y = Number(jsonObject.y);        
+        this.decorationLower = this.createDescriptionObject(jsonObject.DecorationLower);
+        this.decorationUpper = this.createDescriptionObject(jsonObject.DecorationUpper);
+        this.align =(jsonObject.align || 'right');
+        this.animation =String(jsonObject.animation ||"");
+    }
+
+    createDescriptionList(listText){
+        if(!listText){return [];}
+
+        const result =[];
+        for( const objText of JSON.parse(listText)){
+            result.push( this.createDescriptionObject (objText));
+        }
+        return result;
+    }
+
+    createDescriptionObject(jsonText){
+
+        if(!jsonText){
+            return null;
+        }
+
+        const obj = JSON.parse(jsonText);
+        return {
+            x:Number(obj.x),
+            y:Number(obj.y),
+            bitmap:'img/'+obj.bitmap+'.png'
+        };
+    }
+}
+
+
+ const setting =(function createSetting(){
+    const parameters = PluginManager.parameters("Mano_SpriteNumber");
+
+    function createRowMap(params){
+        /**
+         * @type {Map<String,Number>}
+         */
+        const map = new Map();
+        if(!params.bitmapRows){return map;}
+        const list = JSON.parse(params.bitmapRows);
+        for(const elem of list){
+            const obj = JSON.parse(elem);
+            const value = Number(obj.maxRow)
+            map.set(obj.bitmap, isNaN(value)? 5:value  );
+        }
+        return map;
+    }
+    /**
+     * @param {Map<String,Number>} map 
+     * @param {Setting_SpriteNumber[]} list 
+     */
+    function SpriteSettingXX(map,list){
+        for(const item of list){
+            const value = map.get(item.bitmap);
+            if(value!==undefined){
+                item.bitmapRow =value;
+            }
+        }
+    }
+
+
+    function createSpriteSettingList(paramText){
+        if(!paramText){return[];}
+        const result =[];
+        const list =JSON.parse(paramText);
+        for (const objText of list) {
+            const obj = JSON.parse(objText);
+            const item = new Setting_SpriteNumber(obj);
+            result.push(item);
+        }
+        return result;
+    }
+
+
+    const result ={
+        mapNumbers:createSpriteSettingList(parameters.mapNumbers)
+    };
+    const map =createRowMap(parameters);
+    if(map.size >0){
+        SpriteSettingXX(map,result.mapNumbers);
+    }
+
+    return result;
+})();
+
+function a(){
+    return (function(){});
+}
+
+class AnimationRunnerBase{
+
+    constructor(){
+        this.setSprite(null);
+        this.setRunningState(false);
+    }
+    /**
+     * @param {Boolean} value 
+     */
+    setRunningState(value){
+        this._isRunning =!!value;
+    }
+
+    /**
+     * @param {Sprite_NumberBase} sprite
+     */
+    setSprite(sprite){
+        this.sprite =sprite;
+    }
+    isRunning(){
+        return this._isRunning;        
+    }
+
+    start(){}
+    update(){}
+    end(){}
+}
+
+class Animation_NumberJump extends AnimationRunnerBase{ 
+    constructor(){
+        super();
+        this.duraition =0;
+        this._hage=0;
+        this.setJumpSize(20);
+    }
+
+    /**
+     * @param {Number} size 
+     */
+    setJumpSize(size){
+        this._jumpSize=size;
+    }
+
+    start(){
+        const d = this.sprite.animationFrameLength();
+        this.duraition = d;
+        this._hage =d/2;
+    }
+    /**
+     * @param {Number} i
+     * @return {Number} 経過時間を0~1の値として返す
+     */
+    animationElapsedtime(i){
+        const c=this._hage;
+        const d = this.duraition-  i *5;
+        if(d <0){return 0;}
+
+        const x = (c -d )/this._hage;
+
+        return x *x;
+    }
+
+    getJumpedY(i){
+        const x = this.animationElapsedtime(i);
+        return -Math.sin(x)*this._jumpSize;
+    }
+
+    update(){
+        this.duraition -=1;
+
+        let i=1;
+        for (const sprite of this.sprite.numberSprites()){
+            if(sprite.visible){
+                sprite.y = this.getJumpedY(i);
+                ++i;
+            }
+        }
+
+        if(this.duraition <= 0){
+            this.setRunningState(false);
+        }
+    }
+    end(){
+        for (const sprite of this.sprite.numberSprites()) {
+            sprite.y =0;
+        }
+    }
+}
+
+class Sprite_NumberBase extends Sprite{
+
+    static defaultNumberGet(){
+        return 0;
+    }
+
+    /**
+     * @param {()=>Number} [getNumberFunc=null]
+     */
+    constructor(getNumberFunc){
+        super();
+
+        this.setAnimation(null);
+    }
+
+    /**
+     * @param {AnimationRunnerBase} animation
+     */
+    setAnimation(animation){
+        if(!!animation ){
+            this._animation =animation;
+            animation.setSprite(this);
+        }else{
+            this._animation =null;
+        }
+
+    }
+    loadMyBitmap(){
+        return ImageManager.loadSystem("Damage");
+    }
+
+    initialize(){
+        super.initialize();
+        
+        this._damageBitmap= this.loadMyBitmap();
+        this._lastValue = NaN;
+        this._maxValue=0;
+        this.makeNumberSprites(0);
+    }
+    padZero(){
+        return false;
+    }
+
+    spacing(){
+        return 0;
+    }
+    resetDuration(){
+        this.duration=0;
+    }
+
+    digitWidth(){
+        return this._damageBitmap ? this._damageBitmap.width / 10 : 0;        
+    }
+    digitHeight(){
+        return this._damageBitmap ? this._damageBitmap.height / this.rows() : 0;
+    }
+    rows(){
+        return 5;
+    }
+
+    /**
+     * @param {Number} digit
+     */
+    makeNumberSprites(digit){
+        if(this._numberSprites){
+            for(sp of this._numberSprites){
+                this.removeChild(sp);
+            }
+        }
+
+        const result =[];
+        const width =this.digitWidth();
+        const height =this.digitHeight();
+
+        for(var i=0; i <digit;++i){
+            const sprite = new Sprite(this._damageBitmap);
+            sprite.visible =false;
+            sprite.anchor.x =0.5;
+            result.push(sprite);
+            this.addChild(sprite);
+        }
+        this._numberSprites =result;
+        this.alignNumbers();
+        this._maxValue = ( Math.pow(10,this.digit()))-1;
+    }
+    /**
+     * @return {Sprite[]}
+     */
+    numberSprites(){
+        return this._numberSprites;
+    }
+
+    isAlignLeft(){
+        return false;
+    }
+    isCenterAlign(){
+        return false;
+    }
+
+    alignBeginX(){
+        return 0;
+    }
+
+
+    alignCenter(){
+
+
+    }
+
+    alignNumbers(){
+        const len = this._numberSprites.length;
+        const width =this.digitWidth();
+        const height =this.digitHeight();
+        const rightAlign =!this.isAlignLeft();
+        const spacing = this.spacing() + width;
+        let x =0;
+
+        for(var i=0 ;i<len;++i){
+            const sprite = this._numberSprites[i];
+            if(rightAlign||sprite.visible ){
+                sprite.x = x;
+                sprite.y =0;
+                x += spacing ;    
+            }
+        }
+    }
+    baseRow(){
+        return 0;
+    }
+
+
+    /**
+     * @param {Number[]} value 
+     */
+    numberList(value){
+        const noZeroFill = !this.padZero();
+        const result =[];
+        for(var i=this.digit()-1; i >=0; i-=1){
+            result[i]=value %10;
+            value = Math.floor(value /10);
+            if(value<=0  && noZeroFill){
+                break;
+            }
+        }
+        return result;
+    }
+    
+
+    /**
+     * @param {Sprite} sprite 
+     * @desc 一桁分の数字
+     * @param {Number} number 
+     * @param {Number} width 
+     * @param {Number} height 
+     */
+    drawDight(sprite,number,width,height){
+        sprite.setFrame(width *number, 0 ,width,height );
+    }
+    digit(){
+        return this._numberSprites.length;
+    }
+    maxValue(){
+        return this._maxValue;
+    }
+    /**
+     * 
+     * @param {Number} value 
+     */
+    numberNormalize(value){
+        const abs = Math.abs(value);
+        return Math.round(  Math.min(this.maxValue(),abs));
+    }
+
+    /**
+     * @param {Number} value 
+     */
+    setup(value){
+        const string = this.numberList(this.numberNormalize(value));
+        const width = this.digitWidth();
+        const height = this.digitHeight();
+        const row =0;
+        const len = this._numberSprites.length;
+        const padZero = this.padZero();
+
+        for(var i=0; i< len;++i){
+            const sprite = this._numberSprites[i];
+            const n=string[i];
+            if( isNaN( n)  ){
+                sprite.visible =false;
+                continue;
+            }
+            sprite.visible =true;
+            this.drawDight(sprite,n, width,height);
+        }
+        this._lastValue =value;
+        this.alignNumbers();
+    }
+
+    currentNumber(){
+        return 0;
+    }
+
+    updateVisible(){}
+
+    updateValue(){
+        const v = this.currentNumber();
+        if(v!==this._lastValue ){
+            this.setup(v);
+            this.startAnimation();
+
+        }
+    }
+
+    updateAnimation(){
+        this._animation.update();
+        if(!this._animation.isRunning()){
+            this._animation.end();
+        }
+    }
+
+    update(){
+        this.updateVisible();
+        if(!this.visible){return;}
+
+        this.updateValue();
+        this.updatePosition();
+        if(this._animation && this._animation.isRunning()){
+            this.updateAnimation();
+        }
+    }
+
+
+
+    updatePosition(){
+
+    }
+
+    animationFrameLength(){
+        return 30;
+    }
+
+    startAnimation(){
+        if(this._animation){
+            this._animation.setRunningState(true);
+            this._animation.start();    
+        }
+    }
+
+    endAnimation(){
+
+        for (const sprite of this._numberSprites){
+            sprite.y = 0;
+        }
+    }
+};
+
+class Sprite_NumberVariable extends Sprite_NumberBase{
+
+
+    /**
+     * @param {Setting_SpriteNumber} [data=null] 
+     */
+    constructor(data){
+        super();
+        if(data){
+            this.setData(data);
+        }else{
+            this.setData(Setting_SpriteNumber_NullObject);
+        }
+    }
+
+
+    /**
+     * 
+     * @param {String} align 
+     */
+    setAlign(align){
+        this._align = align;
+    }
+
+    isAlignLeft(){
+        return this._align ==='left';
+    }
+
+    /**
+     * @param {String} name 
+     * @param {Number} x 
+     * @param {Number} y 
+     */
+    createDecorationSprite(name,x,y){
+        const bitmap = ImageManager.loadNormalBitmap(name,0);
+        const sprite = new Sprite(bitmap);
+        sprite.x = x;
+        sprite.y = y;
+        this.addChild(sprite);
+        return sprite;
+    }
+
+    /**
+     * @param {Number} x 
+     * @param {Number} y 
+     */
+    setPosition(x,y){
+        this._variableX =x;
+        this._variableY =y;
+    }
+
+    /**
+     * @param {Setting_SpriteNumber} data 
+     */
+    setData(data){
+        this.removeChildren();
+        this.setPosition(data.x,data.y);
+        this.setSwitchId(data.switchId);
+        this.setPadZero(data.padZero);
+        this.setSpacing(data.spacing);
+        this.setRows(data.bitmapRow);
+        this.setAlign(data.align);
+        this.setVariableId(data.variableId);
+        const animationFunc = exportClass.AnimationMap.get(data.animation);
+
+        if(animationFunc){
+            this.setAnimation(animationFunc());
+        }else{
+            this.setAnimation(null);
+        }
+
+        if(data.decorationLower){
+            const decLower =data.decorationLower;
+            this._decorationLower= this.createDecorationSprite(decLower.bitmap,decLower.x,decLower.y);
+        }
+        this._damageBitmap= ImageManager.loadSystem(data.bitmap);
+        this.makeNumberSprites(data.digit);
+        if(data.decorationUpper){
+            const decUpper =data.decorationUpper;
+            this._decorationUpper= this.createDecorationSprite(decUpper.bitmap,decUpper.x,decUpper.y);
+        }
+        this.setup(this.currentNumber());
+    }
+
+    /**
+     * @param {Number} id 
+     */
+    setSwitchId(id){
+        this._switchId=id;
+    }
+
+    /**
+     * @param {Number} id 
+     */
+    setVariableId(id){
+        this._variableId =id;
+    }
+
+    // isCenterAlign(){
+    //     return true;
+    // }
+    // alignBeginX(){
+    //     if(this.isCenterAlign()){
+    //         const w =this.digitWidth();
+    //         const d =this.digit();
+    //        return (  w*d ) *(-0.5)
+    //     }
+    //     return super.alignBeginX();
+    // }
+
+    /**
+     * @param {boolean} value 
+     */
+    setPadZero(value){
+        this._padZero =!!value
+    }
+    padZero(){
+        return this._padZero;
+    }
+    /**
+     * @param {Number} row 
+     */
+    setRows(row){
+        this._row =row;
+    }
+    rows(){
+        if(isNaN( this._row) ){return 5;}
+        return this._row;
+    }
+
+
+    /**
+     * @param {Number} value 
+     */
+    setSpacing(value){
+        this._spacing =value;
+    }
+    /**
+     * @return {number}
+     */
+    spacing(){
+        return this._spacing;
+    }
+
+    currentNumber(){
+        return $gameVariables.value(this._variableId);
+    }
+
+    updateVisible(){
+        const switchId =this._switchId;        
+        this.visible=  switchId ===0 || $gameSwitches.value(switchId);
+    }
+    updatePosition(){
+        this.x = $gameVariables.value(this._variableX);
+        this.y = $gameVariables.value(this._variableY);
+    }
+}
+
+
+
+const Scene_Map_createSpriteset =Scene_Map.prototype.createSpriteset;
+Scene_Map.prototype.createSpriteset=function(){
+    Scene_Map_createSpriteset.call(this);
+
+    const rootSprite = new Sprite();
+
+    for (const obj  of setting.mapNumbers) {
+        const sprite =new Sprite_NumberVariable(obj);
+        rootSprite.addChild(sprite);
+    }
+
+    this._numberSprites = rootSprite;
+    this.addChild(rootSprite);
+};
+/**
+ * @type {Map<String,()=>AnimationRunnerBase>}
+ */
+const AnimationMap= new Map();
+AnimationMap.set("jump",function(){
+   return new Animation_NumberJump();
+});
+
+const exportClass={
+    AnimationRunnerBase:AnimationRunnerBase,
+    Base:Sprite_NumberBase,
+    Variable:Sprite_NumberVariable,
+    AnimationMap:AnimationMap
+};
+
+return exportClass;
+
+})();
